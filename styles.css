@@ -4,4 +4,5 @@ h1 {
 
 #columns {
   display: flex;
+  background-color: blue;
 }
