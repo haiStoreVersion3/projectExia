@@ -76,11 +76,5 @@ app = {
               console.error('failed to send');
           }
       })
-  },
-  parseResponse: (data) => {
-          var arr = data.split('\n');
-      arr.forEach((line) => {
-          $('#convertedCSV').append(`<div>${line}</div>`);
-      })
   }
 }
