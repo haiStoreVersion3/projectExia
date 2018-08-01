@@ -3,6 +3,11 @@ const app = express()
 
 app.use("/", express.static(__dirname));
 
-// app.get('/', (req, res) => res.send('Hello World!'))
+app.post('/repos', function (req, res) {
+  var username = req.body
+
+  res.send(`you just saved ${username} to the database`);
+});
+
 
 app.listen(3000, () => console.log('Example app listening on port 3000!'))
