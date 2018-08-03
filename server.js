@@ -3,7 +3,7 @@ const app = express()
 
 app.use("/", express.static(__dirname));
 
-app.post('/repos', function (req, res) {
+app.post('/exia', function (req, res) {
   var username = req.body
 
   res.send(`you just saved ${username} to the database`);
