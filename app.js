@@ -1,6 +1,5 @@
 function scrollFooter(scrollY, heightFooter)
 {
-
     if(scrollY >= heightFooter)
     {
         $('footer').css({
