@@ -47,6 +47,7 @@ $(window).load(function(){
         scrollFooter(scroll, footerHeight);
     }
 });
+
 app = {
   init: () => {
       // app.fetch();
