@@ -50,7 +50,7 @@ $(window).load(function(){
 
 app = {
   init: () => {
-      // app.fetch();
+      app.fetch();
       $('#submitButton').on('submit', (e) => {
           e.preventDefault();
           app.send($('#input').val())
