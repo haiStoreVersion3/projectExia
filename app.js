@@ -54,7 +54,7 @@ app = {
       $('#submitButton').on('submit', (e) => {
           e.preventDefault();
           app.send($('#input').val())
-          // console.log($('#input').val())
+          console.log($('#input').val())
       })
   },
   send: (data) => {
