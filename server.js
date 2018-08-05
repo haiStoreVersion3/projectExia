@@ -9,5 +9,4 @@ app.post('/exia', function (req, res) {
   res.send(`you just saved ${username} to the database`);
 });
 
-
 app.listen(3000, () => console.log('Server for project exia launched!'))
