@@ -44,7 +44,6 @@ $(window).load(function(){
         $('header').css({
             'background-position-y' : 50 - (scroll * 100 / heightDocument) + '%'
         });
-
         scrollFooter(scroll, footerHeight);
     }
 });
