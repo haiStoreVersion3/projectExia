@@ -59,7 +59,7 @@ app = {
   },
   send: (data) => {
       $.ajax({
-          url: '/',
+          url: '/', //need to update this url to proper link
           type: 'POST',
           contentType: 'application/json',
           crossDomain: true,
@@ -74,3 +74,5 @@ app = {
       })
   }
 }
+
+// need to add more information for animations
