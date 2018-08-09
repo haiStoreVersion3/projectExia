@@ -1,7 +1,7 @@
-const express = require('express');
+import express, { static } from 'express';
 const app = express();
 
-app.use("/", express.static(__dirname));
+app.use("/", static(__dirname));
 
 // app.post('/exia', function (req, res) {
 //   var username = req.body
