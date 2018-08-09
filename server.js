@@ -5,6 +5,7 @@ app.use("/", static(__dirname));
 
 app.post('/exia', function (req, res) {
   var username = req.body
+  // will need to update username to proper saving literal
   res.send(`you just saved ${username} to the database`);
 });
 
